@@ -1,0 +1,59 @@
+﻿@model IEnumerable<ContatosMVC.Models.ContatoModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="text-center text-bg-secondary p-3">
+    <h1 class="display-4">Contatos</h1>
+</div>
+
+<p>
+    <a type="button" class="btn btn-success" asp-action="Create">Criar novo registro</a>
+</p>
+<table class="table table-warning table-bordered border-dark">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Celular)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Celular)
+            </td>
+            <td>
+                    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                           <a type="button" class="btn btn-dark" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                          <a type="button" class="btn btn-success" asp-action="Details" asp-route-id="@item.Id">Detalhes</a>
+                          <a type="button" class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Deletar</a>
+                    </div> 
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<div class="btn-group" role="group" aria-label="Basic outlined example">
+  <a type="button" class="btn btn-outline-success" >Gmail</a>
+  <a type="button" class="btn btn-outline-primary">Hotmail</a>
+  <a type="button" class="btn btn-outline-danger">Outlook</a>
+  <a type="button" class="btn btn-outline-warning">Outros</a>
+</div>
