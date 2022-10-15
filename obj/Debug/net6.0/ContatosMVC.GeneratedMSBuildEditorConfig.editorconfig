@@ -35,8 +35,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/NATHAN/C\#/ContatosMVC/ContatosMVC/Views/Home/Dominio.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEb21pbmlvLmNzaHRtbA==
+[D:/NATHAN/C\#/ContatosMVC/ContatosMVC/Views/Dominio/Gmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9taW5pb1xHbWFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NATHAN/C\#/ContatosMVC/ContatosMVC/Views/Dominio/Hotmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9taW5pb1xIb3RtYWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NATHAN/C\#/ContatosMVC/ContatosMVC/Views/Dominio/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9taW5pb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NATHAN/C\#/ContatosMVC/ContatosMVC/Views/Dominio/Outlook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9taW5pb1xPdXRsb29rLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NATHAN/C\#/ContatosMVC/ContatosMVC/Views/Dominio/Outros.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9taW5pb1xPdXRyb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/NATHAN/C\#/ContatosMVC/ContatosMVC/Views/Home/Index.cshtml]

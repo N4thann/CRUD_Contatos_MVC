@@ -1,0 +1,41 @@
+﻿@model IEnumerable<ContatosMVC.Models.ContatoModel>
+@{
+    ViewData["Title"] = "Hotmail";
+}
+
+<div class="text-center text-bg-secondary p-3">
+    <h1 class="display-4">Hotmail</h1>
+</div>
+
+<table class="table table-info table-bordered border-dark">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Celular)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Celular)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

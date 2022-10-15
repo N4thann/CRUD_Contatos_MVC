@@ -28,6 +28,11 @@ namespace ContatosMVC.Controllers
             return View();
         }
 
+        public IActionResult Dominio()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
